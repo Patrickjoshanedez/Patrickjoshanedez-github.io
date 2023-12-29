@@ -1,0 +1,355 @@
+body {
+    background: rgb(238, 174, 202);
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+}
+
+header {
+    color:  rgba(86, 8, 141, 0.856);;
+    text-shadow: 2px 2px 4px rgba(119, 5, 81, 0.534);
+    text-align: left;
+    padding: 14px;
+    font-size: 25px;
+    margin-left: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.topnav {
+    float: right;
+    overflow: hidden;
+    margin-top: -100px;
+    margin-left: -50px;
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 27px;
+    border-bottom: 3px solid transparent;
+  }
+  
+  .topnav a:hover {
+    border-bottom: 3px solid red;
+  }
+  
+  .topnav a.active {
+    border-bottom: 3px solid red;
+
+  }
+
+.Profile-pic {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+    border-color: black;
+}
+.Intro {
+    text-align: center;
+    padding: 20px;
+
+}
+
+
+.Intro h2 {
+    color: #920086;
+    font-family: 'Your Chosen Font', sans-serif;
+    margin: 10px 0;
+    font-size: 30px;
+}
+
+.About-me {
+    color: #0a641d;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    
+}
+
+.About-me h2 {
+    text-align: left;
+    margin-left: 290px;
+    font-size: 50px;
+    margin-top: 260px;
+
+
+}
+
+.About-me-def {
+    font-family: 'Arial Narrow Bold', sans-serif;
+    font-size: 18px;
+    color: #0a641d;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    border: 3px solid rgba(32, 30, 30, 0.753);
+    padding: 20px;
+    margin: 10px;
+    width: 600px;
+    margin-left: 7%;
+    text-align: justify;
+    border-radius: 10px;
+}
+
+.Hobbies {
+    font-family: 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    float: right;
+    color: #0a641d;
+    line-height: 1.6;
+    text-align: left;
+    margin-right: 28%;
+    margin-top: -35%;
+}
+
+.skills {
+    font-family: 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    float: right;
+    color: #0a641d;
+    line-height: 1.6;
+    text-align: left;
+    margin-right: 28%;
+    margin-top: -17%;
+}
+
+.personality {
+    font-family: 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    float: right;
+    color: #0a641d;
+    line-height: 1.6;
+    text-align: left;
+    margin-right: 3%;
+    margin-top: -35%;
+}
+
+.social {
+    font-family: 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    float: right;
+    color: #0a641d;
+    line-height: 1.6;
+    text-align: left;
+    margin-right: 25%;
+    margin-top: 25%;
+    border: solid 3px  rgba(32, 30, 30, 0.753);
+    border-radius: 10px;
+    padding: 25px 25px 25px;
+    
+    
+  
+}
+
+.social a :hover{
+    border-bottom: 3px solid red;
+    cursor: pointer;
+}
+.social h2 {
+    margin-right: 38%;
+    margin-bottom: 10%;
+    text-align: justify
+
+}
+
+.link {
+    line-height: 3;
+}
+
+.Last {
+    font-family: 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    color: #0a641d;
+    line-height: 1.6;
+    text-align: center;
+    margin-top: 65%;
+    margin-right: auto;
+    margin-bottom: auto;
+}
+
+.vidyow {
+    height: 500px;
+    width: 400px;
+}
+
+
+footer {
+    color: #0a641d;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+
+}
+
+/* ITIII BLOG PAGE */
+.Stud-inv h2{
+    border: 2px solid #333;
+    border-radius: 10px;
+    max-inline-size: 300px;
+    position: relative;
+    margin-left: 39%;
+    padding: 15px;
+    font-size: 28px;
+
+}
+
+.Stud-inv {
+    font-family: 'Arial Narrow Bold', sans-serif;
+    font-size: 28px;
+    color: #0a641d;
+    line-height: 1.6;
+    text-align: center;
+    margin-top: 15%;
+    border-radius: 10px;
+
+}
+
+.trpl {
+    font-size: 28px;
+    font-family: 'Arial Narrow Bold', sans-serif;
+}
+
+.Tree1 {
+    width: 800px;
+    height: 600px;
+    border: 2px solid #333;
+    border-radius: 10px;
+}
+
+.Tree2 {
+    width: 800px;
+    height: 600px;
+    border: 2px solid #333;
+    border-radius: 10px;
+    
+}
+
+.image-container2{
+    max-width: fit-content;
+    margin-left: 200px;
+}
+
+.image-container3{
+    max-width: fit-content;
+    margin-left: 200px;
+}
+
+.image-container3,
+.image-container2 {
+    border: 2px solid #333;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.tree-plntng {
+    border: solid 3px  rgba(32, 30, 30, 0.753);
+    border-radius: 10px;
+    padding: 100px;
+    margin-bottom: 40px;
+}
+
+.blog-entry2 {
+    border: solid 3px  rgba(32, 30, 30, 0.753);
+    border-radius: 10px;
+    padding: 100px;
+    margin-bottom: 40px;
+    
+}
+
+.blog-entry3 h2 {
+    margin-left: 35%;
+    
+}
+
+.blog-entry3 {
+    border: solid 3px  rgba(32, 30, 30, 0.753);
+    border-radius: 10px;
+    padding: 100px;
+    margin-bottom: 40px;
+    
+}
+
+footer {
+    color: #0a641d;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    font-size: 10px;
+}
+
+/* Flex Page */
+
+h1 {
+    font-size: 28px;
+    margin: 10px 0;
+    color: #fff;
+}
+
+#blog-entries {
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 8px;
+}
+
+.Flex1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 15%;
+    border-radius: 8px;
+    padding: 30px;
+}
+
+.Flex1 h2 {
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: #0a641d;
+    text-align: center;
+    border: 2px solid #1b1717;
+    padding: 15px;
+    border-radius: 8px;
+    margin: 0 auto;
+}
+
+.Flex1 p {
+    color: #0a641d;
+    border: solid 3px  rgba(32, 30, 30, 0.753);
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+footer {
+    margin-top: 20px;
+    color: #0a641d;
+    padding: 10px;
+    text-align: left;
+}
+
+.drawings img {
+    width: 50%;
+    border: solid 3px  rgb(116, 68, 109);
+    border-radius: 8px;
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.drawings {
+    margin-bottom: 30px;
+    border: solid 3px  rgba(32, 30, 30, 0.753);
+    background-color: rgb(116, 68, 109);
+    padding: 15px;
+    border-radius: 8px;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+
+
+ 
+
+
+
